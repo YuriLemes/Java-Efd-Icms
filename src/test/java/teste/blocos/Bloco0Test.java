@@ -33,7 +33,7 @@ public class Bloco0Test {
 		efdIcms.setBloco0(preencheBloco0());
 		sb = GerarEfdIcms.gerar(efdIcms, sb);
 		System.out.println(sb.toString());
-		Assert.assertEquals(sb.toString(),Resultados.resultadoBloco0());
+		Assert.assertEquals(Resultados.resultadoBloco0(),sb.toString());
 	}
 	
 	public Bloco0 preencheBloco0(){
@@ -52,17 +52,17 @@ public class Bloco0Test {
 
 	public Bloco0 preencheRegistro0000(Bloco0 bloco0){
 		Registro0000 registro0000 = new Registro0000();
-		registro0000.setCod_ver("010");
-		registro0000.setCod_fin("0");
-		registro0000.setDt_ini("01082016");
-		registro0000.setDt_fin("31082016");
-		registro0000.setNome("FERREIRA COM DE DER DE PETROLEO LTDA");
-		registro0000.setCnpj("08381059000774");
-		registro0000.setUf("TO");
-		registro0000.setIe("294434763");
-		registro0000.setCod_mun("1706258");
-		registro0000.setInd_perfil("A");
-		registro0000.setInd_ativ("1");
+		registro0000.setCod_ver("2");
+		registro0000.setCod_fin("3");
+		registro0000.setDt_ini("4");
+		registro0000.setDt_fin("5");
+		registro0000.setNome("6");
+		registro0000.setCnpj("7");
+		registro0000.setUf("9");
+		registro0000.setIe("10");
+		registro0000.setCod_mun("11");
+		registro0000.setInd_perfil("14");
+		registro0000.setInd_ativ("15");
 		bloco0.setRegistro0000(registro0000);
 		
 		return bloco0;
@@ -78,14 +78,14 @@ public class Bloco0Test {
 	
 	public Bloco0 preencheRegistro0005(Bloco0 bloco0){
 		Registro0005 registro0005 = new Registro0005();
-		registro0005.setFantasia("POSTO SAO JORGE");
-		registro0005.setCep("77463000");
-		registro0005.setEnd("RODOVIA BR 153");
-		registro0005.setNum("S/N");
-		registro0005.setCompl("KM608");
-		registro0005.setBairro("ZONA RURAL");
-		registro0005.setFone("6333521135");
-		registro0005.setEmail("agenorferreira10@hotmail.com");
+		registro0005.setFantasia("2");
+		registro0005.setCep("3");
+		registro0005.setEnd("4");
+		registro0005.setNum("5");
+		registro0005.setCompl("6");
+		registro0005.setBairro("7");
+		registro0005.setFone("8");
+		registro0005.setEmail("10");
 		bloco0.setRegistro0005(registro0005);
 		
 		return bloco0;
