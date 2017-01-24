@@ -93,17 +93,17 @@ public class Bloco0Test {
 	
 	public Bloco0 preencheRegistro0100(Bloco0 bloco0){
 		Registro0100 registro0100 = new Registro0100();
-		registro0100.setNome("MARLENE GONÇALVES DE CAMARGO OLIVEIRA");
-		registro0100.setCpf("51513676172");
-		registro0100.setCrc("11479");
-		registro0100.setCep("74320070");
-		registro0100.setEnd("RUA E 1");
-		registro0100.setNum("00002");
-		registro0100.setBairro("VILA LUCY");
-		registro0100.setFone("6232876383");
-		registro0100.setFax("6232876383");
-		registro0100.setEmail("camargoassessoriacontabil@gmail.com");
-		registro0100.setCod_mun("5208707");
+		registro0100.setNome("2");
+		registro0100.setCpf("3");
+		registro0100.setCrc("4");
+		registro0100.setCep("6");
+		registro0100.setEnd("7");
+		registro0100.setNum("8");
+		registro0100.setBairro("10");
+		registro0100.setFone("11");
+		registro0100.setFax("12");
+		registro0100.setEmail("13");
+		registro0100.setCod_mun("14");
 		bloco0.setRegistro0100(registro0100);
 		
 		return bloco0;
@@ -111,14 +111,14 @@ public class Bloco0Test {
 	
 	public Bloco0 preencheRegistro0150(Bloco0 bloco0){
 		Registro0150 registro0150 = new Registro0150();
-		registro0150.setCod_part("51786192934");
-		registro0150.setNome("FAZENDA CJL");
-		registro0150.setCod_pais("1058");
-		registro0150.setCpf("51786192934");
-		registro0150.setCod_mun("1706258");
-		registro0150.setEnd("FAZENDA CJL S/N");
-		registro0150.setNum("S/N");
-		registro0150.setBairro("ZONA RURAL");
+		registro0150.setCod_part("2");
+		registro0150.setNome("3");
+		registro0150.setCod_pais("4");
+		registro0150.setCpf("6");
+		registro0150.setCod_mun("8");
+		registro0150.setEnd("10");
+		registro0150.setNum("11");
+		registro0150.setBairro("13");
 		bloco0.getRegistro0150().add(registro0150);
 		
 			Registro0175 registro0175 = new Registro0175();
